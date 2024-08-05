@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: gilroy;
+}
+
+html, body{
+    box-sizing: border-box;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#navigation>h1{
+    color: rgb(208, 177, 1);
+}
+
+h2{
+    text-align: center;
+}
+
+#musics{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#music1{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(233, 208, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#music2{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(233, 208, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#music3{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(233, 208, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#music4{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(233, 208, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#music5{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(233, 208, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+audio{
+    height: 100px;
+    width: 300px;
+    margin-top: -47px;
+}

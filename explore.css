@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: gilroy;
+}
+
+html, body{
+    box-sizing: border-box;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#navigation>h1{
+    color: rgb(208, 177, 1);
+}
+
+#music-card-r1{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-r1:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-r2{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-r2:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-r3{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-r3:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-r4{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-r4:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+
+img{
+    object-fit: contain;
+    position: center;
+}
+
+#music-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#music-card-l1{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-l1:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-l2{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-l2:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-l3{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-l3:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-l4{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-l4:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwl1{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwl1:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwl2{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwl2:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwl3{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwl3:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwl4{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwl4:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwr1{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwr1:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwr2{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwr2:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwr3{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwr3:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+#music-card-btwr4{
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+#music-card-btwr4:hover{
+    background-color: rgb(238, 220, 118);
+    color: black;
+}
+
+
+
+

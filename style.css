@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: gilroy;
+}
+
+html, body{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home>#home-heading>button>a{
+    color: white;
+}
+
+#explore>#explore-heading>button>a{
+    color: white;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#navigation>h1{
+    color: rgb(208, 177, 1);
+}
+
+#nav{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navigation>#nav>nav>a{
+    color: black;
+    text-decoration: none;
+}
+
+#navigation>#nav>nav>a:hover{
+    color: rgb(187, 159, 2);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(186, 182, 182);
+    text-decoration-thickness: 2px;
+}
+
+i{
+    margin-right: 20px;
+    color: rgb(208, 177, 1);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#home-heading{
+    width: 60%;
+    height: 100%;
+    padding: 30px 110px;
+}
+
+#home-heading>h1{
+    font-size: 60px;
+}
+
+#home-heading>h4{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+
+#home-heading>button{
+    margin-top: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(208, 177, 1);
+    color: white;
+    cursor: pointer;
+}
+
+#home-img{
+    height: 100%;
+    padding: 25px;
+}
+
+#home-img>img{
+    object-fit: contain;
+    margin-top: -10px;
+    border-radius: 50px;
+}
+
+#reviews{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+#collection{
+    width: 20%;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+#people-download{
+    width: 20%;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+#good-review{
+    width: 20%;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px; 
+}
+
+#reviews>#collection>p{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+#reviews>#people-download>p{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+#reviews>#good-review>p{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+#explore{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#explore>#explore-heading{
+    width: 50%;
+    /* background-color: red; */
+}
+
+#explore>#explore-heading>h1{
+    font-size: 35px;
+}
+
+#explore>#explore-heading>h4{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+#explore>#explore-heading>button{
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(208, 177, 1);
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#explore-img{
+    margin-right: 10px;
+}
+
+#choice-text{
+    width: 30%;
+    font-size: 25px;
+    padding: 90px;
+}
+
+#choice-music{
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#choice-music>a{
+    color: black;
+}
+
+#choice-music>a>#new-release,#trending,#hits,#classic>h4,img{
+    text-align: center;
+    /* cursor: pointer; */
+    
+}
+
+#choice-music>a>#new-release>img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#choice-music>a>#trending>img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#choice-music>a>#hits>img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#choice-music>a>#classic>img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#subscribe-section{
+    margin-top: 100px;
+}
+
+#subscribe{
+    width: 40%;
+    background-color: rgb(248, 230, 127);
+    margin-left: 25%;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+form>input{
+    padding: 5px 5px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+form>button{
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(208, 177, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 234, 142);
+    margin-top: 70px;
+    /* margin-left: 120px; */
+    border-radius: 30px;
+}
+
+#rights{
+    padding: 40px;
+}
+
+#rights>h1{
+    color: rgb(208, 177, 1);
+}
+
+#social-media-links>i{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgb(208, 177, 1);
+    color: white;
+}
+
+#info{
+    padding: 50px;
+    align-items: center;
+}
+
+#info>#created-by>h2{
+    color: rgb(102, 102, 102);
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
